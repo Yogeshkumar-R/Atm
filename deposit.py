@@ -13,7 +13,7 @@ class deposit:
         notes[200] += two_hundred
         hundred = int(input("no.of.100: "))
         notes[100] += hundred
-        if two_thousand <= 0 or five_hundred <= 0 or two_hundred <= 0 or hundred <= 0 or denomination<=0:
+        if two_thousand <= 0 and five_hundred <= 0 and two_hundred <= 0 and hundred <= 0 and denomination<=0:
             print("Deposit amount cannot be zero")
         two_thousand *= 2000
         five_hundred *= 500
